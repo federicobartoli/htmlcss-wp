@@ -25,7 +25,6 @@ body {
     background-color: #333;
     text-align: center;
     margin: 0 auto;
-
 }
 
 ul {
@@ -42,6 +41,7 @@ li a{
     float: left;
     padding: 14px 16px;
     text-decoration: none;
+    display: inline-block;
 }
 
 ul a:hover {
@@ -71,6 +71,10 @@ header {
 .row {
     padding: 12px;
     background-color: white;
+}
+
+.row2 {
+    height: 500px;
 }
 
 aside {
