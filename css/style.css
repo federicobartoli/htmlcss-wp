@@ -1,0 +1,99 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://3.bp.blogspot.com/-UCtvUooNAis/TdOoJXSIEPI/AAAAAAAAAMk/yVvwf92aJUM/s1600/bck_wood_floor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.menu {
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+li a{
+    border-right: 1px solid #bbb;
+    color: white;
+    height: 50px;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul a:hover {
+  background-color: #111;
+}
+
+
+header {
+    height: 214px;
+    margin-bottom: 10px;
+}
+
+.customheader {
+    position: relative;
+    background-image: url('https://cc-media-foxit.fichub.com/image/fox-it-life/cb6eaf9b-2944-40bc-b369-55e0a06d410e/boschi-in-italia-il-bosco-quarto-pugliese-maxw-1280.jpg');
+    height: 140px;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row {
+    padding: 12px;
+    background-color: white;
+}
+
+aside {
+    width: 25%;
+    height: 100%;
+    background-color: mediumorchid;
+    float: left;
+}
+
+main {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 0 10px;
+}
+
+main .content {
+    height: 100%;
+    background-color: purple;
+}
+
+footer {
+    height: 100px;
+    margin-top: 10px;
+    background-color: powderblue;
+}
